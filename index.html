@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://kit.fontawesome.com/b94a63472f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Cursor/style.css">
+    <link rel="shortcut icon" href="images/R_Logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <!-- <h1><span>R</span>ahul.</h1> -->
+                    <h1><span><img src="images/Hindi_Rahul.png" alt=""></span></h1>
+                    <!-- <h1><span><img src="images/Full_Logo.png" alt=""></span></h1> -->
+                    
+                </div>
+
+                <ul id="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                </ul>
+
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Web & Graphic Designer</p>
+                <h1>Hi, I'm <span>Rahul</span><br>Ahirwar From India </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------about--------------s-->
+    <div class="container">
+        <div id="about">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A creative Web Designer with an Associate’s Diploma in Web & Graphic Design and one and half year
+                        of experience working as Teaching Designing to students. Proven skills in HTML, CSS, and Adobe
+                        Creative Suite.
+                        Ability to work independently and collaborate effectively with a team.
+
+                        Excellent written and verbal communication skills. seeking an entry-level position in web
+                        design.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Designing</span> <br> HTML, CSS, JAVASCRIPT, BOOTSTRAP, JQUERY !</li>
+                            <li><span>Video Editing</span> <br>PREMIERE PRO, AFTER EFFECTS !</li>
+                            <li><span>Graphic Designing</span> <br> PHOTOSHOP, ILLUSTRATOR, INDESIGN, CORELDRAW !</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th, 2018(CBSE) | 12th, 2020(CBSE)</span><br> Sarvodaya Vidyalaya- Sector -6
+                                Rohini</li>
+                            <li><span>CHNM, 2021(Diploma)</span> <br> iTi Mangolpuri</li>
+                            <li><span>Web & Graphic Design(Diploma)</span> <br>VCTC - Vijay Vihar Sector-4 Rohin, Delhi.
+                            </li>
+                            <li><span>Bachelor ofArts, 2023</span> <br>Delhi University - School of open learning.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span><b>Computer Trainer/Tutor,</b></span><span>07/2022 - 11/2023</span>
+                                <br>In a private Institute - Delhi, India.
+                            </li>
+                            <li><span><b>Graphic Designer & Social Media Manager,</b></span><span>02/2023 - Current</span>
+                                <br>HNN Group, Sector-14 Rohini - Delhi-110085, India.
+                            </li>
+                           
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------services------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Invest in SEO-optimized website design services to ensure your website can be crawled and indexed
+                        by search engines without a glitch.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-clapperboard"></i>
+                    <h2>Video Editing</h2>
+                    <p> video editing services - sound design, transitions, color correction. Corporate, home vids, ads,
+                        podcasts, weddings and more. </p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic design</h2>
+                    <p>Graphic design services can include packaging and merchandise design, signage, art installations,
+                        published materials, logos, and general art direction. </p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------portfolio------------------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Graphic Design.jpg" alt="">
+
+                    <div class="layer">
+                        <h3>Social Media Designs</h3>
+                        <p>Captivate with custom social media banners! Elevate your online presence with eye-catching designs that speak volumes in pixels.                         </p>
+                        <a href="Social_Media/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Web Design.jpg" alt="">
+                    <div class="layer">
+                        <h3>Websites Designs</h3>
+                        <p>Crafting digital experiences with a blend of aesthetics and functionality, our web designs captivate and engage.
+                        </p>
+                        <a href="Web_Sites/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Web App.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web App Designs</h3>
+                        <p>Crafting digital experiences through code, web app development blends creativity and functionality. 
+                        </p>
+                        <a href="Web_App/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- ---------------------contact------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+
+
+                    <p><a href="mailto:rahulahirwardev@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i>
+                            rahulahirwardev@gmail.com</a></p>
+
+
+                    <p><a href="https://wa.link/mq6ybv" target="_blank"><i class="fas fa-phone-square"></i> +91
+                            8368853827</p></a>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/rahulhuyaar001/" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/Rahulhuyaar001" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/rahulhuyaar001/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/rahulhuyaar001" target="_blank"><i class="fab fa-github"></i></a>
+                          <a href="https://www.linkedin.com/in/rahul-ahirwar-702a19298/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/RahulResume.pdf" class="btn btn-2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required onkeyup="validateName()" id="contact-name">
+                        <span id="name-error"></span>
+                        <input type="email" name="Email" placeholder="Your Email" required onkeyup="validateEmail()" id="contact-email">
+                        <span id="email-error"></span>
+                        <textarea name="Message" rows="6" placeholder="Your Message"
+                            onkeyup="validateMessage()"id="contact-message"></textarea>
+                        <span id="message-error"></span>
+                        <br>
+                        <button type="submit" class="btn btn-2" onclick="return validateForm()" >Submit</button>
+                        <span id="submit-error"></span>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p> @ Rahul Ahirwar <i class="fas fa-heart"></i> - Good Luck !</p>
+        </div>
+    </div>
+    <!-- ===========about=========== -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        console.log(tabcontents)
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+
+        }
+    </script>
+
+    <!-- ===============menu========== -->
+    <script>
+        var menu = document.getElementById('menu');
+        function showMenu() {
+            menu.style.right = "0";
+        }
+        function hideMenu() {
+            menu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- ========Cursor=========== -->
+    <script>
+        let script = document.currentScript
+
+        window.addEventListener("DOMContentLoaded", () => {
+            let iDiv = document.createElement('div');
+            iDiv.id = 'cursor';
+            if (script.getAttribute("difference") == "disable") {
+                iDiv.className = 'cursor-cursor';
+            } else {
+                iDiv.className = 'cursor-cursor cursor-difference';
+            }
+            document.getElementsByTagName('body')[0].appendChild(iDiv);
+
+            let pauseAnimation = script.getAttribute("pause-animation");
+
+            let innerDiv = document.createElement('div');
+
+            if (script.getAttribute("color") !== null) {
+                iDiv.style.backgroundColor = script.getAttribute("color");
+            } else {
+                if (script.getAttribute("difference") == "disable") {
+                    iDiv.style.backgroundColor = "black"
+                } else {
+                    iDiv.style.backgroundColor = "white"
+                }
+            }
+
+            if (pauseAnimation !== null && pauseAnimation == "disable") {
+                if (script.getAttribute("circle-outline") == "disable") {
+                    innerDiv.className = 'cursor-circle';
+                } else {
+                    innerDiv.className = 'cursor-circle new';
+                }
+            } else {
+                if (script.getAttribute("circle-outline") == "disable") {
+                    innerDiv.className = 'cursor-circle cursor-border-transform';
+                } else {
+                    innerDiv.className = 'cursor-circle new cursor-border-transform';
+                }
+            }
+
+
+
+            iDiv.appendChild(innerDiv);
+
+            let size = Number(script.getAttribute("size")) || 30
+
+            for (let i = 0; i < size; i++) {
+                let innerDiv = document.createElement('div');
+                if (pauseAnimation !== null && pauseAnimation == "disable") {
+                    innerDiv.className = 'cursor-circle';
+                } else {
+                    innerDiv.className = 'cursor-circle cursor-border-transform';
+                }
+
+                if (script.getAttribute("color") !== null) {
+                    innerDiv.style.backgroundColor = script.getAttribute("color");
+                } else {
+                    if (script.getAttribute("difference") == "disable") {
+                        innerDiv.style.backgroundColor = "black"
+                    } else {
+                        innerDiv.style.backgroundColor = "white"
+                    }
+                }
+                iDiv.appendChild(innerDiv);
+            }
+
+
+
+            const coords = { x: 0, y: 0 };
+            let timeout
+            const circles = document.querySelectorAll(".cursor-circle");
+
+            const cursor = document.querySelector(".cursor-cursor");
+
+            circles.forEach(function (circle, index) {
+                circle.x = 0;
+                circle.y = 0;
+                if (script.getAttribute("gradient") !== null) {
+                    let colors = script.getAttribute("gradient").split(",")
+                    circle.style.backgroundColor = colors[Math.floor((index * colors.length) / circles.length)];
+
+                    document.querySelector("div.new").border = `0.5px solid ${colors[0]}`
+                }
+            });
+
+            const addclass = (e) => {
+                if (script.getAttribute("pause-animation") !== "disable") {
+                    document.body.classList.remove("cursor-nocursor")
+                    if (script.getAttribute("circle-outline") !== "disable") {
+                        document.querySelector("div.new").classList.remove("cursor-scale-outline")
+                        document.querySelector("div.new").style.border = ""
+                    }
+                    document.querySelectorAll("div.cursor-circle").forEach(element => {
+                        element.classList.remove("cursor-scale")
+                    })
+                }
+                coords.x = e.clientX;
+                coords.y = e.clientY;
+            };
+
+            window.addEventListener("mousemove", (e) => addclass(e))
+            window.addEventListener("touchmove", (e) => addclass(e.touches[0]))
+
+            function animateCircles() {
+                let x = coords.x;
+                let y = coords.y;
+
+                cursor.style.top = x;
+                cursor.style.left = y;
+
+                circles.forEach(function (circle, index) {
+                    circle.style.left = x - 12 + "px";
+                    circle.style.top = y - 12 + "px";
+
+                    circle.style.scale = (circles.length - index) / circles.length;
+
+                    circle.x = x;
+                    circle.y = y;
+
+                    const nextCircle = circles[index + 1] || circles[0];
+                    x += (nextCircle.x - x) * 0.3;
+                    y += (nextCircle.y - y) * 0.3;
+                });
+
+                requestAnimationFrame(animateCircles);
+            }
+
+            animateCircles();
+
+            if (script.getAttribute("cursor") == "disable") {
+                document.body.classList.add("cursor-nocursor")
+            }
+
+            if (script.getAttribute("pause-animation") !== "disable") {
+                const moove = () => {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(
+                        () => {
+                            document.body.classList.add("cursor-nocursor")
+                            if (script.getAttribute("cursor-circle-outline") !== "disable") {
+                                document.querySelector("div.new").classList.add("cursor-scale-outline")
+
+                                if (script.getAttribute("color") !== null) {
+                                    if (script.getAttribute("color-outline") !== null) {
+                                        document.querySelector("div.new").style.border = `0.5px solid ${script.getAttribute("color-outline")}`;
+                                    } else {
+                                        document.querySelector("div.new").style.border = `0.5px solid ${script.getAttribute("color")}`;
+                                    }
+                                } else {
+                                    if (script.getAttribute("color-outline") !== null) {
+                                        document.querySelector("div.new").style.border = `0.5px solid ${script.getAttribute("color-outline")}`;
+                                    } else {
+                                        if (script.getAttribute("difference") == "disable") {
+                                            document.querySelector("div.new").style.border = `0.5px solid black`
+                                        } else {
+                                            document.querySelector("div.new").style.border = `0.5px solid white`
+                                        }
+                                    }
+                                }
+
+                            }
+                            document.querySelectorAll("div.cursor-circle").forEach(element => {
+                                element.classList.add("cursor-scale")
+                            })
+                        }, 100)
+                }
+
+                document.onmousemove = moove;
+                document.ontouchmove = moove;
+            }
+        })
+
+    </script>
+
+
+    <!-- ===================form=============== -->
+    <script>
+        var nameError = document.getElementById("name-error");
+
+        var emailError = document.getElementById("email-error");
+        var messageError = document.getElementById("message-error");
+        var submitError = document.getElementById("submit-error");
+
+        function validateName() {
+            var name = document.getElementById("contact-name").value;
+
+            if (name.length == 0) {
+                nameError.innerHTML = "Name is required";
+                return false;
+            }
+
+            if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
+                nameError.innerHTML = "Write Full Name";
+                return false;
+            }
+
+            nameError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+            
+            return true;
+        }
+
+
+
+        function validateEmail() {
+            var email = document.getElementById("contact-email").value;
+
+            if (email.length == 0) {
+                emailError.innerHTML = "Email no is required";
+                return false;
+            }
+
+            if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                emailError.innerHTML = "Email Invalids";
+                return false;
+            }
+
+            emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+            
+            return true;
+        }
+
+
+        function validateMessage() {
+            var message = document.getElementById("contact-message").value;
+            var required = 30;
+            var left = required - message.length;
+
+            if (left > 0) {
+                messageError.innerHTML = left + ' more characters required'
+                return false
+            }
+
+            messageError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+            
+            return true;
+        }
+
+
+        function validateForm() {
+            if (!validateName() || !validateEmail() || !validateMessage()) {
+                submitError.style.display = 'block';
+                submitError.innerHTML = "Please fix error to submit"
+                setTimeout(function () { submitError.style.display = 'none' }, 5000);
+                return false;
+            }
+        }
+
+    </script>
+
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwZzshj-0aJ7AkkRQpVu01Fr6VfFPweZC6B1tT9pii4BE6kY3ntJepu_i6oOEK_NN_-/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(function () {msg.innerHTML = ""}, 5000)
+                setTimeout(function () { nameError.innerHTML = "" }, 5000);
+                setTimeout(function () { emailError.innerHTML = "" }, 5000);
+                setTimeout(function () { messageError.innerHTML = "" }, 5000);
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+</body>
+
+</html>
